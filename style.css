@@ -6,16 +6,18 @@ h2{
     color: red;
     font-weight: bold;
     font-size: 30px;
+    font-family: 'Libre Baskerville';
 }
 h1{
     font-size: 70px;
     text-align: center;
+    font-family: 'Libre Baskerville';
 }
 .image{
     border: solid red;
     border-radius: 15px;
     background-color: rgb(39, 37, 37);
-    margin: 10px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
 }
 .pied{
     border: dashed blue;
@@ -23,6 +25,7 @@ h1{
     font-size: 19px;
     margin: 50px 50px 50px 50px;
     padding: 20px;
+    font-family: 'robotolight';
 }
 img{
     height: 700px;
@@ -34,7 +37,7 @@ img{
     text-align: center;
 }
 .tete{
-    background-color: rgb(39, 37, 37);
+    background-color: #1C1C1C;
     color: blanchedalmond;
 }
 th{
@@ -45,12 +48,43 @@ a{
     color: red;
 }
 .meme:hover{
-    background-color: #424242;
+    background-color: #999999;
     cursor: pointer;
 }
 table{
     border-collapse: collapse;
+    font-family: 'robotolight';
 }
 .meme{
-    background-color: #D8D8D8;
+    background-color: #dddddd;
+}
+.article{
+    font-family: 'robotolight';
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('font/Roboto-Light-webfont.eot');
+    src: url('font/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Roboto-Light-webfont.woff2') format('woff2'),
+         url('font/Roboto-Light-webfont.woff') format('woff'),
+         url('font/Roboto-Light-webfont.ttf') format('truetype'),
+         url('font/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.avant{
+    font-family: 'robotolight';
+}
+figure{
+    text-align: center;
+    color: blanchedalmond;
+}
+.pieds{
+    border: dashed blue;
+    color: blue;
+    font-size: 19px;
+    margin: 5px 50px 5px 50px;
+    padding: 20px;
+    font-family: 'robotolight';
 }

@@ -3,12 +3,12 @@
   <head>
     <title>Structurer un contenu HTML</title>
     <link type="text/css" rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=LibreBaskerville' rel='stylesheet'>
     <meta charset="UTF-8">
   </head>
-  >
     <div>
           <h1>Histoire d’Internet</h1>
-                <p>
+                <p class="article">
         <strong>L’​ histoire d'Internet​</strong> remonte au développement des premiers réseaux de télécommunication.
       L’idée d’un réseau informatique, permettant aux utilisateurs de différents ordinateurs de
       communiquer, se développa par de nombreuses étapes successives. La somme de tous ces
@@ -32,7 +32,7 @@
     <div>
           <table>
                   <tr>
-                   <th>Année</th>
+                   <th class="tete">Année</th>
                    <th>Evenement</th>
                   </tr>
                   <tr class="meme">
@@ -193,6 +193,7 @@
     <div>
           <article>
             <h2>Protocole TCP/IP</h2>
+            <div class="avant">
                L'abondante diversité des méthodes de communications réseau amena un besoin
                d'uniformisation. Robert E. Kahn recruta Vinton G. Cerf de l'université Stanford dans le but de
                travailler ensemble sur ce problème. En 1973, ils avaient déjà réalisé une reformulation
@@ -201,6 +202,7 @@
                avec l'ARPANET, les hôtes en étaient maintenant responsables. Vinton G. Cerf attribua à
                Hubert Zimmermann et Louis Pouzin (développeurs du réseau Cyclades) un important travail de
                développement.<br>
+            </div>
             <div class="pied">
                Avec le rôle du réseau physique réduit à son strict minimum, il devint alors possible de
                fusionner à peu près tout type de réseau sans tenir compte de leurs caractéristiques et ainsi
