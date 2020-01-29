@@ -1,0 +1,56 @@
+body{
+    background-color: #BDBDBD;
+    margin: 0px 70px 0px 90px;
+}
+h2{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+.image{
+    border: solid red;
+    border-radius: 15px;
+    background-color: rgb(39, 37, 37);
+    margin: 10px 0px 0px 0px;
+}
+.pied{
+    border: dashed blue;
+    color: blue;
+    font-size: 19px;
+    margin: 50px 50px 50px 50px;
+    padding: 20px;
+}
+img{
+    height: 700px;
+    width: 1090px;
+    padding: 15px;
+}
+.fig{
+    color: blanchedalmond;
+    text-align: center;
+}
+.tete{
+    background-color: rgb(39, 37, 37);
+    color: blanchedalmond;
+}
+th{
+    background-color: #1C1C1C;
+    color: blanchedalmond;
+}
+a{
+    color: red;
+}
+.meme:hover{
+    background-color: #424242;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+}
+.meme{
+    background-color: #D8D8D8;
+}
