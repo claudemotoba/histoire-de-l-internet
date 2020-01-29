@@ -3,7 +3,7 @@ body{
     margin: 0px 70px 0px 90px;
 }
 h2{
-    color: red;
+    color: #CF0025;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Libre Baskerville';
@@ -14,7 +14,7 @@ h1{
     font-family: 'Libre Baskerville';
 }
 .image{
-    border: solid red;
+    border: solid #CF0025;
     border-radius: 15px;
     background-color: rgb(39, 37, 37);
     margin: 25px 0px 0px 0px;
@@ -45,7 +45,7 @@ th{
     color: blanchedalmond;
 }
 a{
-    color: red;
+    color: #CF0025;
 }
 .meme:hover{
     background-color: #999999;
